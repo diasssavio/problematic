@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Problematic 0.1 | {% block extratitle %}Base{% endblock %}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" media="screen">
+    <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+
+    {% block scriptstyle %}{% endblock %}
+</head>
+<body style="margin:0; padding:0; background:#ffffff; text-align:center;">
+<div class="conteiner-fluid" style="width: 1024px; margin:0 auto; padding: 10px; text-align:left;">
+    <div class="row-fluid">
+        <div class="span6">
+            Header
+        </div>
+        <div class="span5 offset1">
+            <!-- LOGIN -->
+            <div class="row-fluid">
+                <div class="span6 offset6">
+                    {% include "questionsbase/base/login.html" %}
+                    <!-- REGISTER -->
+                    {% include "questionsbase/base/register.html" %}
+                </div>
+            </div>
+            <!-- FIM LOGIN REGISTER -->
+            <div class="row-fluid"><div class="span12"></div></div>
+            <!-- SEARCH -->
+            <div class="row-fluid">
+                <div class="span9 offset3">
+                    {% include "questionsbase/base/search.html" %}
+                </div>
+            </div>
+            <!-- FIM SEARCH -->
+        </div>
+    </div>
+    <!-- MENU -->
+    <div class="row-fluid">
+        <div class="span12">
+            {% include "questionsbase/base/menu.html" %}
+        </div>
+    </div>
+    <!-- FIM MENU -->
+
+    {% block content%}{% endblock %}
+
+</div>
+{% include "questionsbase/base/footer.html" %}
+</body>
+</html>
