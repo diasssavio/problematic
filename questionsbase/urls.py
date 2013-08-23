@@ -1,13 +1,10 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-	url(r'^index/$', 'questionsbase.views.index'),
-	
-    url(r'^questionsbase/', include('questionsbase.urls')),
     # Examples:
     # url(r'^$', 'problematic.views.home', name='home'),
     # url(r'^problematic/', include('problematic.foo.urls')),
