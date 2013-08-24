@@ -3,12 +3,13 @@
 
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models import Q
 
 # Create your models here.
 
 
 class Question(models.Model):
-    question = models.TextField(verbose_name=u'Questão')
+    text = models.TextField(verbose_name=u'Questão')
     datepost = models.DateTimeField(auto_now_add=True, verbose_name='Data de Postagem')
 
     user = models.ForeignKey(User, verbose_name=u'Usuário')
@@ -16,13 +17,13 @@ class Question(models.Model):
     theme = models.ForeignKey('Theme', verbose_name='Disciplina')
     subjects = models.ManyToManyField('Subjects', verbose_name='Assuntos')
 
-    right = models.OneToOneField('Alternative', verbose_name='Alternativa Correta')
+    #right = models.OneToOneField('Alternative', verbose_name='Alternativa Correta')
 
     view = models.PositiveIntegerField(default=0, verbose_name=u'Visualizações')
     status = models.BooleanField(default=False, verbose_name='Status')
 
     def __unicode__(self):
-        return '%s' % self.question
+        return '%s' % self.text
 
     class Meta:
         verbose_name = u'Questão'
@@ -30,16 +31,27 @@ class Question(models.Model):
 
 
 class Alternative(models.Model):
-    alternative = models.TextField(verbose_name='Alternativa')
+    text = models.TextField(verbose_name='Alternativa')
 
     question = models.ForeignKey(Question, verbose_name=u'Questão')
+
+    def __unicode__(self):
+        return '%s' % self.text
+
+    class Meta:
+        verbose_name = 'Alternativa'
+        verbose_name_plural = 'Alternativas'
+
+class Template(models.Model):
+    question = models.OneToOneField(Question, verbose_name=u'Questão')
+    alternative = models.OneToOneField(Alternative, verbose_name='Alternativa')
 
     def __unicode__(self):
         return '%s' % self.alternative
 
     class Meta:
-        verbose_name = 'Alternativa'
-        verbose_name_plural = 'Alternativas'
+        verbose_name = 'Gabarito'
+        verbose_name_plural = 'Gabaritos'
 
 
 class Answer(models.Model):

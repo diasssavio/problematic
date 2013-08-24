@@ -8,3 +8,6 @@ from django.template import RequestContext
 
 def index(request):
 	return render_to_response('questionsbase/home.html', context_instance=RequestContext(request))
+
+def course(request):
+	return render_to_response('questionsbase/course.html', context_instance=RequestContext(request))
