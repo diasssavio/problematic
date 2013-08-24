@@ -20,21 +20,110 @@
 
     <style type="text/css">
       div{
-        border: 1px solid #ccc;
+        border: 0px solid #ccc;
       }
     </style>
 
   </head>
   <body>
-    
+
     <div class="container">
-      <div class="row">
-        <div class=".col-md-5 col-md-offset-4"><h1>Hello, world!</h1></div>
+      <div class="row" style="background-image: url('{{STATIC_URL}}src/img/capa.jpg'); height: 150px;">
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Provas e concursos</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h5>TESTE SEUS CONHECIMENTOS</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-12">
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" placeholder="O que procura?" class="form-control">
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>Curso</option>
+                    <option>Disciplina</option>
+                    <option>Assunto</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="row">
-        <div class=".col-md-12"><h1>Hello, world!</h1></div>
+        <div class="col-md-12">
+          <!-- MENU -->
+          <div class="navbar navbar-inverse">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">HOME</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Curso</a></li>
+                  <li><a href="#about">Disciplina</a></li>
+                  <li><a href="#contact">Assunto</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-wrench"></span> Perfil <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Nav header</li>
+                      <li><a href="#">Separated link</a></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" placeholder="Password" class="form-control">
+                  </div>
+                  <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-user"></span> Sign in</button>
+                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Register</button>
+                  <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-user"></span> Logout</button>
+                </form>
+              </div><!--/.navbar-collapse -->
+            </div>
+          </div>
+          <!-- FIM MENU -->
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3><span class="glyphicon glyphicon-plus"></span> Recentes</h3>
+        </div>
+
+        <div class="col-md-6">
+          <h3><span class="glyphicon glyphicon-plus "></span> Acessadas</h3>
+        </div>
+      </div>
+
     </div>
 
   </body>
