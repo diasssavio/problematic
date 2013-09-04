@@ -17,10 +17,14 @@ class Question(models.Model):
     theme = models.ForeignKey('Theme', verbose_name='Disciplina')
     subjects = models.ManyToManyField('Subjects', verbose_name='Assuntos')
 
-    #right = models.OneToOneField('Alternative', verbose_name='Alternativa Correta')
-
     view = models.PositiveIntegerField(default=0, verbose_name=u'Visualizações')
     status = models.BooleanField(default=False, verbose_name='Status')
+
+    def get_alternatives(self):
+        return Alternative.objects.filter(question=self)
+
+    def get_right_answer(self):
+        return Template.objects.get(question=self)
 
     def __unicode__(self):
         return '%s' % self.text
@@ -72,6 +76,9 @@ class Answer(models.Model):
 class Course(models.Model):
     name = models.CharField(max_length=255, verbose_name=u'Nome')
 
+    def get_questions(self):
+        return Question.objects.filter(course=self).filter(status=True)
+
     def __unicode__(self):
         return '%s' % self.name
 
@@ -83,6 +90,9 @@ class Course(models.Model):
 class Theme(models.Model):
     name = models.CharField(max_length=255, verbose_name=u'Nome')
 
+    def get_questions(self):
+        return Question.objects.filter(theme=self).filter(status=True)
+
     def __unicode__(self):
         return '%s' % self.name
 
@@ -93,6 +103,9 @@ class Theme(models.Model):
 
 class Subjects(models.Model):
     name = models.CharField(max_length=255, verbose_name=u'Nome')
+
+    def get_questions(self):
+        return Question.objects.filter(subjects=self)
 
     def __unicode__(self):
         return '%s' % self.name

@@ -2,73 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65750442-5b1a-4343-8a7f-f034f472fafe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/img/logo_bootstrap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/img/logo_django.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/img/logo_uft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/static/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problematic/templates/base/search.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/css/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/img/logo_bootstrap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/img/logo_django.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/img/logo_uft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/static/js/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/templates/base/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/templates/base/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/templates/base/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/problematic/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questionsbase/templates/questionsbase/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questionsbase/templates/questionsbase/base/menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questionsbase/templates/questionsbase/base/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questionsbase/templates/questionsbase/course.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questionsbase/templates/questionsbase/home.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/problematic.sqlite" afterPath="$PROJECT_DIR$/problematic/problematic.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionsbase/admin.py" afterPath="$PROJECT_DIR$/questionsbase/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/templates/base.html" afterPath="$PROJECT_DIR$/problematic/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/templates/base/menu.html" afterPath="$PROJECT_DIR$/problematic/templates/base/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionsbase/models.py" afterPath="$PROJECT_DIR$/questionsbase/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/templates/base/search.html" afterPath="$PROJECT_DIR$/problematic/templates/base/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/settings.py" afterPath="$PROJECT_DIR$/problematic/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problematic/urls.py" afterPath="$PROJECT_DIR$/problematic/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionsbase/urls.py" afterPath="$PROJECT_DIR$/questionsbase/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionsbase/views.py" afterPath="$PROJECT_DIR$/questionsbase/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="problematic.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377189106313" ignored="false" />
-    <file path="/settings.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377185197303" ignored="false" />
+    <file path="/Dummy.txt" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378248176831" ignored="false" />
+    <file path="/settings.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377783716482" ignored="false" />
     <file path="/manage.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377185319214" ignored="false" />
-    <file path="/base.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377188444596" ignored="false" />
-    <file path="/index.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377188859026" ignored="false" />
+    <file path="/base.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377817158423" ignored="false" />
+    <file path="/index.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378219825872" ignored="false" />
+    <file path="/admin.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1377779932054" ignored="false" />
+    <file path="/views.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378255063543" ignored="false" />
+    <file path="/menu.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378132173985" ignored="false" />
+    <file path="/forms.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378252054956" ignored="false" />
+    <file path="/urls.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378253311422" ignored="false" />
+    <file path="/models.py" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378217330351" ignored="false" />
+    <file path="/question.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378166097624" ignored="false" />
+    <file path="/course.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378167937407" ignored="false" />
+    <file path="/courses.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378219634527" ignored="false" />
+    <file path="/themes.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378219752780" ignored="false" />
+    <file path="/subjects.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378219723994" ignored="false" />
+    <file path="/search.html" changelist="65750442-5b1a-4343-8a7f-f034f472fafe" time="1378254455077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +113,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problematic/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionsbase/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="0.024390243">
+            <state line="94" column="27" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#52#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="22" selection-start="616" selection-end="616" vertical-scroll-proportion="0.4822335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionsbase/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="64" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionsbase/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="53" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,18 +169,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/questionsbase/admin.py" />
-        <option value="$PROJECT_DIR$/questionsbase/models.py" />
-        <option value="$PROJECT_DIR$/questionsbase/views.py" />
-        <option value="$PROJECT_DIR$/problematic/settings.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/problematic/templates/base/footer.html" />
-        <option value="$PROJECT_DIR$/problematic/templates/base/login.html" />
-        <option value="$PROJECT_DIR$/problematic/templates/base/menu.html" />
-        <option value="$PROJECT_DIR$/problematic/templates/base/register.html" />
-        <option value="$PROJECT_DIR$/problematic/templates/base/search.html" />
-        <option value="$PROJECT_DIR$/problematic/templates/index.html" />
         <option value="$PROJECT_DIR$/problematic/templates/base.html" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/theme.html" />
+        <option value="$PROJECT_DIR$/problematic/templates/base/menu.html" />
+        <option value="$PROJECT_DIR$/problematic/urls.py" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/course.html" />
+        <option value="$PROJECT_DIR$/questionsbase/models.py" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/courses.html" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/subjects.html" />
+        <option value="$PROJECT_DIR$/problematic/templates/problematic/index.html" />
+        <option value="$PROJECT_DIR$/problematic/templates/base/search.html" />
+        <option value="$PROJECT_DIR$/questionsbase/forms.py" />
+        <option value="$PROJECT_DIR$/questionsbase/urls.py" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/themes.html" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/search.html" />
+        <option value="$PROJECT_DIR$/questionsbase/views.py" />
+        <option value="$PROJECT_DIR$/questionsbase/templates/questionsbase/question.html" />
       </list>
     </option>
   </component>
@@ -204,7 +262,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="questionsbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionsbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionsbase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problematic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,6 +415,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -223,10 +424,31 @@
       <recent name="$PROJECT_DIR$/problematic/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/questionsbase/static" />
+      <recent name="$PROJECT_DIR$/problematic/templates/problematic" />
+      <recent name="$PROJECT_DIR$/problematic" />
+      <recent name="$PROJECT_DIR$/problematic/templates/base" />
       <recent name="$PROJECT_DIR$/problematic/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.problematic">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="problematic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,13 +560,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364667" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3006483" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -420,84 +642,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/questionsbase/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="0.023961661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionsbase/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionsbase/tests.py">
+    <entry file="file://$PROJECT_DIR$/../CaCCompSite/caccomp/content/templates/content/polls.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questionsbase/views.py">
+    <entry file="file://$PROJECT_DIR$/problematic/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="0.023961661" />
+        <state line="9" column="67" selection-start="268" selection-end="268" vertical-scroll-proportion="0.16719745">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/../CaCCompSite/caccomp/baygon/templates/baygon/doubt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.047923323" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="35.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CaCCompSite/caccomp/content/templates/content/home.html">
+    <entry file="file://$PROJECT_DIR$/../CaCCompSite/caccomp/baygon/templates/baygon/doubts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CaCCompSite/caccomp/content/templates/content/base.html">
+    <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/subjects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.6456954" />
+        <state line="20" column="63" selection-start="662" selection-end="662" vertical-scroll-proportion="0.2893401">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/courses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/templates/base/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.07450331" />
+        <state line="43" column="10" selection-start="1808" selection-end="2244" vertical-scroll-proportion="0.4822335">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problematic/templates/base/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/templates/base/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="512" selection-end="512" vertical-scroll-proportion="0.20304568" />
+        <state line="74" column="34" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.65989846">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problematic/templates/base/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="217" selection-end="217" vertical-scroll-proportion="0.12417219" />
+        <state line="9" column="16" selection-start="316" selection-end="316" vertical-scroll-proportion="0.2284264">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/templates/base/login.html">
+    <entry file="file://$PROJECT_DIR$/questionsbase/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="857" selection-end="857" vertical-scroll-proportion="0.40609136" />
+        <state line="30" column="39" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.6097561">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/questionsbase/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="45" selection-start="71" selection-end="71" vertical-scroll-proportion="0.024834437" />
+        <state line="107" column="53" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/questionsbase/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.27317882" />
+        <state line="9" column="64" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problematic/settings.py">
+    <entry file="file://$PROJECT_DIR$/problematic/templates/problematic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="50" selection-end="50" vertical-scroll-proportion="0.024390243">
+        <state line="53" column="85" selection-start="2961" selection-end="3002" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="58" selection-start="2331" selection-end="2331" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/themes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="760" selection-end="760" vertical-scroll-proportion="-11.833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionsbase/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="27" selection-start="3512" selection-end="3512" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#52#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionsbase/templates/questionsbase/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="616" selection-end="616" vertical-scroll-proportion="0.4822335">
           <folding />
         </state>
       </provider>

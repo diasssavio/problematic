@@ -1,0 +1,102 @@
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">HOME</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                {% block menucourse %}
+                    <li><a href="/qb/course/">Curso</a></li>
+                {% endblock %}
+                {% block menutheme %}
+                    <li><a href="/qb/theme/">Disciplina</a></li>
+                {% endblock %}
+                {% block menusubjects %}
+                    <li><a href="/qb/subjects/">Assunto</a></li>
+                {% endblock %}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-wrench"></span> Perfil <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right" method="post">
+                {% csrf_token %}
+                {% if not user.is_authenticated %}
+                    {% for field in authForm %}
+                        <div class="form-group">
+                            {{ field }}
+                        </div>
+                    {% endfor %}
+                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-user"></span> Sign in</button>
+                    <a data-toggle="modal" href="#myModal" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Register</a>
+                    {% if error_login %}
+                        <script>$('#loginError').modal('show')</script>
+                    {% endif %}
+                {% else %}
+                    <a>Bem-vindo, {{ user.username }} </a><a class="btn btn-danger" href="qb/logout"><span class="glyphicon glyphicon-user"></span> Logout</a>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Cadastrar Usuário</h4>
+            </div>
+            <form class="form-horizontal" role="form" method="post">
+                {% csrf_token %}
+                <div class="modal-body">
+                    {% for field in userForm %}
+                        {% if field.errors %}
+                            <div class="alert alert-danger">{{ field.errors }}</div>
+                        {% endif %}
+                        <div class="form-group">
+                            <div class="col-lg-10">{{ field }}</div>
+                        </div>
+                    {% endfor %}
+                    {% if saved %}
+                        <div class="alert alert-success">Usuário Cadastrado Com Sucesso!</div>
+                    {% endif %}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="loginError" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myloginError" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myloginError">Problema de Login</h4>
+            </div>
+            <div class="modal-body">
+                <h3>Usuário ou senha incorretos</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
