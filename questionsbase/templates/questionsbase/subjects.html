@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block menusubject %}
+    <li class="active"><a href="#">Cursodsgsdgs</a></li>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h2><span class="glyphicon glyphicon-hand-right"></span> Assuntos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul id="myTab" class="nav nav-pills nav-stacked">
+                        {% for subject in subjects %}
+                            <li><a href="#{{ subject.pk }}" data-toggle="tab">{{ subject.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div id="myTabContent" class="tab-content">
+                    {% for subject in subjects %}
+                        <div class="tab-pane fade" id="{{ subject.pk }}">
+                            <div class="col-md-8">
+                                <table class="table">
+                                    <a href="#"><h4>{{ subject.name }}</h4></a>
+                                    <h4>{{ subject.get_questions|length }} Questão(ões):</h4>
+                                    <div class="list-group">
+                                        {% for question in subject.get_questions %}
+                                            <a href="/qb/{{ question.pk }}" class="list-group-item">{{ question }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </table>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){// Javascript to enable link to tab
+            var url = document.location.toString();
+            if (url.match('#')) {
+                $('#myTab a[href="#'+url.split('#')[1]+'"]').tab('show');
+            }
+
+            // Change hash for page-reload
+            $('#myTab a').on('shown', function (e) {
+                window.location.hash = e.target.hash;
+            })
+        })
+    </script>
+{% endblock %}

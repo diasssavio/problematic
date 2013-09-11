@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <h4><span class="glyphicon glyphicon-pencil"></span> Etapa 3: Selecionar Resposta Correta</h4>
+            <form class="form-horizontal" role="form" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Questão</label>
+                    <div class="col-lg-10"><textarea class="form-control" cols="40" name="text" rows="10" disabled>{{ question.text }}</textarea></div>
+                </div>
+                {% for field in templateForm %}
+                    {% if field.errors %}
+                        <div class="alert alert-danger">{{ field.errors }}</div>
+                    {% endif %}
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">{{ field.label }}</label>
+                        <div class="col-lg-10">{{ field }}</div>
+                    </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-success pull-right">Finalizar <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h3>{{ question.text }}</h3>
+            <table class="table">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form class="form-inline" name="enquete" method="post">
+                            {% csrf_token %}
+                            <table class="table table-bordered table-hover">
+                                <tbody>
+                                {% for alternative in answerForm.alternatives %}
+                                    {% if alternative.choice_value == correct_alt and correct_alt == alternative_id %}
+                                        <tr class="success"><td><h5>{{ alternative }}</h5></td></tr>
+                                    {% elif alternative.choice_value == correct_alt %}
+                                        <tr class="success"><td><h5>{{ alternative }}</h5></td></tr>
+                                    {% elif alternative.choice_value == alternative_id and correct_alt != alternative_id %}
+                                        <tr class="danger"><td><h5>{{ alternative }}</h5></td></tr>
+                                    {% else %}
+                                        <tr><td><h5>{{ alternative }}</h5></td></tr>
+                                    {% endif %}
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                            <button type="submit" class="btn btn-success pull-right">Responder</button>
+                        </form>
+                    </div>
+                </div>
+            </table>
+            <div class="col-md-7">
+                <h5>Curso: <a href="/qb/course/#{{ question.course_id }}"><span class="label label-warning">{{ question.course }}</span></a></h5>
+                <h5>Disciplina: <a href="/qb/theme/#{{ question.theme_id }}"><span class="label label-warning">{{ question.theme }}</span></a></h5>
+                <h5>Assuntos:
+                    {% for subject in question.subjects.all %}
+                        <a href="/qb/subjects/#{{ subject.pk }}"><span class="label label-warning">{{ subject }}</span></a>
+                    {% endfor %}
+                </h5>
+            </div>
+            <div class="col-md-5">
+                <blockquote class="pull-right">
+                    <small>Postado por: {{ question.user }}</small>
+                    <small>{{ question.datepost }}</small>
+                    <small>Views: {{ question.view }}</small>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+{% endblock %}

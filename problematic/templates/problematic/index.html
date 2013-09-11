@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-plus"></span> Recentes</h3>
+            <table class="table">
+                {% for question in recent_questions %}
+                    <tr>
+                        <td>
+                            <table class="table">
+                                <a href="/qb/{{ question.pk }}"><h4>{{ question.text }}</h4></a>
+                                <div class="col-md-7">
+                                    <h5>Curso: <a href="/qb/course/#{{ question.course_id }}"><span class="label label-warning">{{ question.course }}</span></a></h5>
+                                    <h5>Disciplina: <a href="/qb/theme/#{{ question.theme_id }}"><span class="label label-warning">{{ question.theme }}</span></a></h5>
+                                    <h5>Assuntos:
+                                        {% for subject in question.subjects.all %}
+                                            <a href="/qb/subjects/#{{ subject.pk }}"><span class="label label-warning">{{ subject }}</span></a>
+                                        {% endfor %}
+                                    </h5>
+                                </div>
+                                <div class="col-md-5">
+                                    <blockquote class="pull-right">
+                                        <small>Postado por: {{ question.user }}</small>
+                                        <small>{{ question.datepost }}</small>
+                                        <small>Views: {{ question.view }}</small>
+                                    </blockquote>
+                                </div>
+                            </table>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-plus "></span> Acessadas</h3>
+            <table class="table">
+                {% for question in viewed_questions %}
+                    <tr>
+                        <td>
+                            <table class="table">
+                                <a href="/qb/{{ question.pk }}"><h4>{{ question.text }}</h4></a>
+                                <div class="col-md-7">
+                                    <h5>Curso: <a href="/qb/course/#{{ question.course_id }}"><span class="label label-warning">{{ question.course }}</span></a></h5>
+                                    <h5>Disciplina: <a href="/qb/theme/#{{ question.theme_id }}"><span class="label label-warning">{{ question.theme }}</span></a></h5>
+                                    <h5>Assuntos:
+                                        {% for subject in question.subjects.all %}
+                                            <a href="/qb/subjects/#{{ subject.pk }}"><span class="label label-warning">{{ subject }}</span></a>
+                                        {% endfor %}
+                                    </h5>
+                                </div>
+                                <div class="col-md-5">
+                                    <blockquote class="pull-right">
+                                        <small>Postado por: {{ question.user }}</small>
+                                        <small>{{ question.datepost }}</small>
+                                        <small>Views: {{ question.view }}</small>
+                                    </blockquote>
+                                </div>
+                            </table>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+{% endblock %} 

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h3>{{ choice_name }}</h3>
+
+            {% if is_question %}
+                <table class="table">
+                    {% for data in data_row %}
+                        <tr>
+                            <td>
+                                <table class="table">
+                                    <a href="/qb/{{ data.pk }}"><h4>{{ data.text }}</h4></a>
+                                    <div class="col-md-7">
+                                        <h5>Curso: <a href="/qb/course/#{{ data.course_id }}"><span class="label label-warning">{{ data.course }}</span></a></h5>
+                                        <h5>Disciplina: <a href="/qb/theme/#{{ data.theme_id }}"><span class="label label-warning">{{ data.theme }}</span></a></h5>
+                                        <h5>Assuntos:
+                                            {% for subject in data.subjects.all %}
+                                                <a href="/qb/subjects/#{{ subject.pk }}"><span class="label label-warning">{{ subject }}</span></a>
+                                            {% endfor %}
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <blockquote class="pull-right">
+                                            <small>Postado por: {{ data.user }}</small>
+                                            <small>{{ data.datepost }}</small>
+                                            <small>Views: {{ data.view }}</small>
+                                        </blockquote>
+                                    </div>
+                                </table>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            {% else %}
+                <table class="table">
+                    {% for data in data_row %}
+                        <tr>
+                            <td>
+                                <table class="table">
+                                    <a href="/qb/{{ choice }}/#{{ data.pk }}"><h4>{{ data.name }}</h4></a>
+                                    <h4>{{ data.get_questions|length }} Questão(ões):</h4>
+                                    <div class="list-group">
+                                        {% for question in data.get_questions %}
+                                            <a href="/qb/{{ question.pk }}" class="list-group-item">{{ question }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </table>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

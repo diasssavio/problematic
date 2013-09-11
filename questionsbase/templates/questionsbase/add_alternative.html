@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block scriptstyle %}
+    <!-- Styles and Scripts -->
+
+    <!-- END Styles and Scripts -->
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <h4><span class="glyphicon glyphicon-pencil"></span> Etapa 2: Submeter Nova Alternativa</h4>
+            {% if added %}
+                <div class="alert alert-success">Alternativa adicionada com sucesso!</div>
+            {% endif %}
+            <form class="form-horizontal" role="form" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Questão</label>
+                    <div class="col-lg-10"><textarea class="form-control" cols="40" name="text" rows="10" disabled>{{ question.text }}</textarea></div>
+                </div>
+                {% for alternative in question.get_alternatives %}
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Alternativa</label>
+                        <div class="col-lg-10"><textarea class="form-control" cols="40" name="text" rows="5" disabled>{{ alternative.text }}</textarea></div>
+                    </div>
+                {% endfor %}
+                {% for field in alternativeForm %}
+                    {% if field.errors %}
+                        <div class="alert alert-danger">{{ field.errors }}</div>
+                    {% endif %}
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">{{ field.label }}</label>
+                        <div class="col-lg-10">{{ field }}</div>
+                    </div>
+                {% endfor %}
+                <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-upload"></span> Submeter</button>
+                <a href="/qb/newtemp/{{ question.pk }}/" class="btn btn-success pull-right">Próxima Etapa <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </form>
+        </div>
+    </div>
+    </br>
+{% endblock %}
